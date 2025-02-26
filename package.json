@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "gulp": "gulp",
     "sass": "sass source/main.scss build/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +17,30 @@
     "url": "https://github.com/gabriel0725/curso_ebac_frontend/issues"
   },
   "homepage": "https://github.com/gabriel0725/curso_ebac_frontend#readme",
-  "description": "",
   "devDependencies": {
-    "sass": "^1.85.0"
-  }
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-sass": "^6.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.85.1"
+  },
+  "dependencies": {
+    "braces": "^3.0.3",
+    "chokidar": "^4.0.3",
+    "detect-libc": "^1.0.3",
+    "fill-range": "^7.1.1",
+    "immutable": "^5.0.3",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "micromatch": "^4.0.8",
+    "node-addon-api": "^7.1.1",
+    "picomatch": "^2.3.1",
+    "readdirp": "^4.1.2",
+    "source-map-js": "^1.2.1",
+    "to-regex-range": "^5.0.1"
+  },
+  "description": ""
 }
