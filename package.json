@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "grunt": "^1.6.1",
     "less": "^4.2.2",
     "less-watch-compiler": "^1.16.3"
   },
