@@ -14,7 +14,10 @@ var alunos = [{
   nota: 4
 }, {
   nome: 'Robert',
-  nota: 9
+  nota: 6
+}, {
+  nome: 'Queiroz',
+  nota: 5
 }];
 function alunosAprovados(alunos) {
   return alunos.filter(function (aluno) {
